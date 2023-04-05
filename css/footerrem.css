@@ -1,0 +1,147 @@
+/*底部链接*/
+.footer {
+  width: 100%;
+  height: 3.75rem;
+  /*background:transparent;*/
+  margin-top: 0.41666667rem;
+}
+.footer-center {
+  width: 10rem;
+  height: 3.75rem;
+  /*background:blue;*/
+  margin: 0 auto;
+  border: 1px solid #e5e5e5;
+  justify-content: space-between !important;
+}
+/*底部链接详细信息*/
+.footer-center div:nth-child(1) {
+  width: 1.25rem;
+  height: 1.41666667rem;
+  border: 1px solid transparent;
+  margin: 0.41666667rem 0px 0px 0.58333333rem;
+  float: left;
+}
+.footer-center div:nth-child(2) {
+  width: 1.25rem;
+  height: 1.41666667rem;
+  border: 1px solid transparent;
+  margin: 0.41666667rem 0px 0px 0.58333333rem;
+  float: left;
+}
+.footer-center div:nth-child(3) {
+  width: 1.25rem;
+  height: 1.41666667rem;
+  border: 1px solid transparent;
+  margin: 0.41666667rem 0px 0px 0.58333333rem;
+  float: left;
+}
+.footer-center div:nth-child(4) {
+  width: 3.75rem;
+  height: 1.41666667rem;
+  border: 1px solid transparent;
+  margin: 0.41666667rem 0px 0px 0.58333333rem;
+  float: right;
+  text-align: center;
+}
+.footer-center div:nth-child(4) h2 {
+  font-size: 0.16666667rem;
+  word-spacing: 0.04166667rem;
+  display: block;
+  padding-top: 0.125rem;
+}
+.footer-center div:nth-child(4) span {
+  width: 0.75rem;
+  height: 0.16666667rem;
+  float: left;
+  line-height: 0.16666667rem;
+  display: block;
+  margin-top: 0.08333333rem;
+}
+.footer-center div:nth-child(4) span i {
+  width: 0.41666667rem;
+  height: 0.41666667rem;
+  margin-top: 0.08333333rem;
+  font-size: 0.33333333rem;
+}
+.footer-center div:nth-child(5) {
+  width: 1.25rem;
+  height: 1.41666667rem;
+  border: 1px solid transparent;
+  margin: 0.41666667rem 0px 0px 0.58333333rem;
+  float: left;
+}
+.footer-center div:nth-child(6) {
+  width: 1.25rem;
+  height: 1.41666667rem;
+  border: 1px solid transparent;
+  margin: 0.41666667rem 0px 0px 0.58333333rem;
+  float: left;
+}
+.footer-center div:nth-child(7) {
+  width: 1 0.41666667rem;
+  height: 1.41666667rem;
+  border: 1px solid transparent;
+  margin: 0.41666667rem 0px 0px 0.58333333rem;
+  float: left;
+}
+.footer-center div:nth-child(8) {
+  width: 4rem;
+  height: 1.875rem;
+  border: 1px solid transparent;
+  float: right;
+  background-image: url(../images/footer.png);
+  background-repeat: no-repeat;
+  background-size: 4rem 2.08333333rem;
+}
+.footer-center-content ul b {
+  font-size: 0.11666667rem;
+  color: #222;
+  line-height: 0.18333333rem;
+}
+.footer-center-content ul li {
+  font-size: 0.1rem;
+  color: #222;
+  line-height: 0.16666667rem;
+}
+.footer-center-content ul li:hover {
+  color: #ff0157;
+  cursor: pointer;
+}
+.footer-center div:nth-child(4) span i:hover {
+  color: #ff0157;
+}
+/*关于网站的介绍*/
+.info {
+  width: 100%;
+  height: 0.83333333rem;
+  margin-top: 0.41666667rem;
+}
+.info-center {
+  width: 9.91666667rem;
+  height: 0.83333333rem;
+  margin: 0 auto;
+  line-height: 0.83333333rem;
+  text-align: center;
+  font-size: 0.15rem;
+  font-weight: 600;
+}
+@media screen and (max-width: 767px) {
+  html {
+    font-size: 76.7px;
+  }
+}
+@media screen and (min-width: 768px) {
+  html {
+    font-size: 76.8px;
+  }
+}
+@media screen and (min-width: 992px) {
+  html {
+    font-size: 99.2px;
+  }
+}
+@media screen and (min-width: 1200px) {
+  html {
+    font-size: 120px;
+  }
+}

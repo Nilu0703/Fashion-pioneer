@@ -1,0 +1,194 @@
+/*全部分类*/
+@font: 120px;
+.bodyer-center-left{	
+	width:16%;
+	height:(468rem / @font);
+	/*background:pink;*/
+	float:left;
+	margin-top:0;
+	border:1px solid #E5E5E5;
+	position: relative;
+}
+/*全部分类的详细效果*/
+.bodyer-center-left span:nth-child(1){	
+	color:#222;
+	font-size: (18rem / @font);
+	font-weight: 700;
+	height:(50rem / @font);
+	line-height: (50rem / @font);
+	margin-left: (15rem / @font);
+}
+/*li列表项的效果*/
+.bodyer-center-left ul li{	
+	width:(190rem / @font);
+	height:(22rem / @font);
+	padding:(2rem / @font) 0px (2rem / @font) (12rem / @font);
+	line-height: (22rem / @font);
+
+}
+.bodyer-center-left ul li span{	
+	font-size:(13rem / @font);
+	line-height: (22rem / @font);
+	
+	color:#646464;
+	cursor: pointer; /*鼠标光标形状变成小手*/
+}
+
+.bodyer-center-left ul li b{	
+	position: absolute;
+	right:(13rem / @font);
+	color:#ff0157;
+	text-shadow: 2px 2px 2px #03A9F4;
+	font-weight: 100;
+}
+/*hover效果的改变*/
+.bodyer-center-left ul li:hover{	
+	background:#f4f4f4;
+}
+.bodyer-center-left ul li span:hover{	
+	color:#000;
+	font-weight: 600;
+}
+/*字体图标颜色的更改*/
+.icon-earth1{
+	color:#FF8200;
+}
+.icon-book{
+	color:gray
+}
+.icon-ipod11{	
+	color:#9B5E3E;
+}
+.icon-feed{	
+	color:#FFB73F;
+}
+.icon-chat{
+	color:#FF3D17;
+}
+.icon-envelope{
+	color:#03A9F4;
+}
+.icon-phone{	
+	color:#00BF96;
+}
+.icon-headphone1{	
+	color:#00BF96;
+}
+.icon-pin1{
+	color:#FF4081;
+}
+.icon-file1{
+	color:#FF4081;
+}
+.icon-twitter-old{
+	color:#FF4081;
+}
+.icon-share{
+	color: red;
+}
+.icon-enlarge{	
+	color:#4FCBB0;
+}
+.icon-mug{	
+	color:#4FCBB0;
+}
+.icon-camera4{	
+	color:#1AA9F4;
+}
+.icon-home{	
+	color:#4FCBB0;
+}
+/* 全部分类侧边栏样式 */
+#dropright{	
+	position: relative;
+}
+/* 隐藏区域公共样式 */
+#dropright li .allsort{	
+	width: (400rem / @font);
+	height:(422rem / @font);
+	background-color: #fff;
+	position: absolute;
+	top:0px;
+	/* left:250px; */
+	border:1px solid #ccc;
+	border-left:none;
+	z-index:5;
+}
+.allsort div{	
+	width:(400rem / @font);
+	height:(50rem / @font);
+	/*border:1rem / @font) solid red;*/
+}
+.allsort div hr{	
+	width: (350rem / @font);
+	margin-left: (25rem / @font);
+}
+.allsort div span a{
+	font-size:(16rem / @font);
+	color:#222;
+}
+.allsort div span:nth-child(2) a{
+	font-size:(14rem / @font);
+	line-height:( 50rem / @font);
+	color:#222;
+	display:block;
+	float: right;
+	margin-right:( 20rem / @font);
+	color:#646464;
+}
+.allsort #brand{	
+	width: (400rem / @font);
+	height:(350rem / @font);
+	margin-top: (20rem / @font);
+}
+.allsort #brand span{
+	width:(80rem / @font);
+	height:(30rem / @font);
+	display:block;
+	float:left;
+	color:#646464;
+	font-size:(14rem / @font);
+	font-weight:400;
+	margin:0;
+	line-height: (30rem / @font);
+	text-align: center;
+	
+}
+.allsort #brand span:hover{	
+	cursor: pointer;
+	color:#ff0157;;
+}
+/* 隐藏区域显示 */
+#dropright .show .allsort{	
+	width: (400rem / @font);
+	height:(422rem / @font);
+	background-color: #fff;
+	position: absolute;
+	top:(-5rem / @font);
+	left:(190rem / @font);
+	display: block;
+	border:1px solid #ccc;
+	/* border-left:none; */
+	padding-left: (15rem / @font);
+}
+@media screen and (max-width:767px){
+    html{
+        font-size: (767px / 10);
+    }
+}
+@media screen and (min-width:768px) {
+    html{
+        font-size: (768px / 10);
+    }
+
+}
+@media screen and (min-width:992px){
+    html{
+        font-size: (992px / 10);
+    }
+}
+@media screen and (min-width:1200px){
+    html{
+        font-size: (1200px / 10);
+    }
+}

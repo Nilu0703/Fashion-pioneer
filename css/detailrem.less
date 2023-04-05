@@ -1,0 +1,332 @@
+ 
+	@font: 120px;
+
+    body{
+       background-color: #f4f4f4;
+   }
+   
+   .header{
+    width:100%;
+    height: (140rem / @font);
+    // border-bottom: 1px solid #ddd;
+    // margin-bottom: (30rem / @font);
+	background-color: #F7F8F8;
+    
+    
+}
+.header .header-box{
+    width:(1240rem / @font);
+    position: relative;
+    height:(140rem / @font);
+    background-color: rgb(223, 218, 218);
+	margin: 0 auto;
+   
+    
+    
+}
+   .logo{
+       position: absolute;
+       left: (50rem / @font);
+       top: (10rem / @font);
+       width: (220rem / @font);
+       height: (115rem / @font);
+       background: url(./../images/jaguar.png) no-repeat;
+       background-size: 70%;
+       background-position: center;
+       transform: translateY((-15rem / @font));
+       /* justify-items: center; */
+       
+   }
+   .search_logo_block{
+       
+       position: absolute;
+       bottom: ((-5rem / @font));
+       left:( 75rem / @font);
+       width: (125rem / @font);
+       height:( 40rem / @font);
+   }
+   .nav-center-right{
+       width:(150rem / @font);
+       height:(20rem / @font);
+       line-height: (20rem / @font);
+       color: #666;
+       margin-top:(60rem / @font);
+       float:right;
+      
+       
+   }
+   .nav-center-right a{   
+       width:0.72rem;
+       height:(20rem / @font);
+       background-color: #ff0157 ;
+       color:#ccc;
+       display:inline-block;
+       
+       text-align: center;
+   }
+.wrap{
+    width: (1210rem / @font);
+    height: (620rem / @font);
+    margin: 0 auto;
+}
+.product-intro{
+   margin-top: (10rem / @font);
+   margin-bottom: (10rem / @font);
+  
+  
+}
+.preview-wrap{
+    width: (352rem / @font);
+    height: (500rem / @font);
+    /* background-color: antiquewhite; */
+    padding-bottom: (15rem / @font);
+    float: left;
+}
+.itemInfo-wrap{
+    width: (590rem / @font);
+    height: (600rem / @font);
+    margin-left: (30rem / @font);
+    margin-right: (24rem / @font);
+    float: left;
+    /* background-color: aquamarine; */
+
+}
+.track{
+    width: (210rem / @font);
+    height: (600rem / @font);
+    // background-color: pink;
+    float: left;
+    overflow-y: auto;
+    padding: 2px;
+    box-sizing: border-box;
+    border:1px solid #ccc;
+}
+.track p{
+    margin-top: 10px;
+    font-size: (14rem / @font);
+}
+.track div{
+    width: 100%;
+    height: (70rem / @font);
+}
+.track div img{
+    width: 100%;
+    height: (70rem / @font);
+}
+.main-img{
+    position: relative;
+    height: (350rem / @font);
+    width: (350rem / @font);
+    border: 1px solid #eee;
+    background-color: blueviolet;
+    margin-bottom: (20rem / @font);
+}
+.main-img img{ 
+    height: (350rem / @font);
+    width: (350rem / @font);
+
+}
+.spec-list{
+    position: relative;
+    width: (352rem / @font);
+    height: (54rem / @font);
+    
+}
+
+.prev i{
+    position: absolute;
+    top: 50%;
+    left: 0;
+    transform: translateY(-50%);
+    width: (22rem / @font);
+    height: (27rem / @font);
+    
+    font-size: (30rem / @font);
+}
+.next i{
+    position: absolute;
+    top: 50%;
+    right: 0;
+    transform: translateY(-50%);
+    width: (22rem / @font);
+    height: (27rem / @font);
+    
+    font-size: (30rem / @font);
+}
+.spec-item{
+    position: relative;
+    width: (290rem / @font);
+    height: (54rem / @font);
+    overflow: hidden;
+    margin: 0 auto;
+    
+}
+.spec-item ul{
+
+    position: absolute;
+    top: 0;
+    left: 0;
+    
+    width: (406rem / @font);
+    height: (54rem / @font);
+    transition: all 0.5s;
+}
+.spec-item ul li{
+    width: (54rem / @font);
+    height: (54rem / @font);
+    margin: 0 (2rem / @font);
+    float: left;
+}
+.spec-item ul li img{
+    width: (50rem / @font);
+    height: (50rem / @font);
+    border: 2px solid #fff;
+}
+.spec-item ul .img-hover img{
+    border: 2px solid #ff0157;
+}
+.zoom-pup{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: (236rem / @font);
+    height: (236rem / @font);
+    background-color: gold;
+    opacity: 0.5;
+    display: none;
+}
+.zoom-div{
+    position: absolute;
+    top: 0;
+    left: (351rem / @font);
+    // background-color: grey;
+    width: (540rem / @font);
+    height: (540rem / @font);
+    overflow: hidden;
+    display: none;
+    z-index: 10;
+}
+.zoom-div img{
+    position:absolute;
+    top: 0;
+    left: 0;
+    width: (800rem / @font);
+    height: (800rem / @font);
+
+}
+.blank{
+    width: 100%;
+    height: (500rem / @font);
+    /* background-color: pink; */
+
+}
+.blank .about{
+    position: relative;
+    width: 100%;
+    height: 50%;
+    /* background-color: #666; */
+    
+}
+.blank .about span{
+    position: absolute;
+    left: 0;
+    bottom: (45rem / @font);
+    color: #ff0157;
+    font-weight: 400;
+    
+}
+.blank .bracelets{
+    width: 100%;
+    height: 50%;
+  }
+  .blank .bracelets img{
+    height: 100%;
+    width: 32%;
+    margin-bottom:2px;
+  }
+
+
+.choose-amount{
+    position: relative;
+    width: (58rem / @font);
+    height: (44rem / @font);
+    border:1px solid #ccc;
+    margin-right: (10rem / @font);
+    background-color: #ff0157;
+}
+.buy-num{
+
+    position: absolute;
+    top: 0;
+
+    width: (43rem / @font);
+    height: (42rem / @font);
+    padding: (1rem / @font) (2rem / @font);
+    line-height: (42rem / @font);
+    border: 0;
+    text-align: center;
+
+}
+.reduce ,.add{position: absolute;
+    width: (15rem / @font);
+    height:(22rem / @font) ;
+    border: 1px solid #ccc;
+    color: darkolivegreen;
+    line-height: (22rem / @font);
+    background-color: #f1f1f1;
+    text-align: center;
+
+}
+.addcart{
+    position: absolute;
+    color:#ccc ;
+    top: (-1rem / @font);
+    left: (59rem / @font);
+background: #ff0157;
+    width: (130rem / @font);
+    height: (44rem / @font);
+    padding: (1rem / @font) (2rem / @font);
+    line-height: (42rem / @font);
+    border: 0;
+    text-align: center;
+    font-weight: 200;
+}
+.addcart:hover{
+    color: #f1f1f1;
+}
+.reduce{
+    right: (-1rem / @font);
+    bottom: (-1rem / @font);
+
+}
+.add{
+    top: (-1rem / @font);
+    right: (-1rem / @font);
+    
+
+}
+.disabled{
+    color: #ccc;
+    cursor: not-allowed;
+}
+@media screen and (max-width:767px){
+    html{
+        font-size: (767px / 10);
+    }
+}
+@media screen and (min-width:768px) {
+    html{
+        font-size: (768px / 10);
+    }
+
+}
+@media screen and (min-width:992px){
+    html{
+        font-size: (992px / 10);
+    }
+}
+@media screen and (min-width:1200px){
+    html{
+        font-size: (1200px / 10);
+    }
+}

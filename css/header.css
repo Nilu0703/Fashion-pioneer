@@ -1,0 +1,239 @@
+.nav {
+  width: 100%;
+  height: 0.33333333rem;
+  /*background:red;*/
+}
+.nav-center {
+  width: 100%;
+  height: 0.33333333rem;
+  /*background:green;*/
+  margin: 0 auto;
+}
+/*导航条左侧 位置登录注册*/
+/*导航条右侧 我的美团 手机APP 商家中心 美团规则 网站导航*/
+.nav-center-right {
+  width: 6.16666667rem;
+  height: 0.33333333rem;
+  float: right;
+  line-height: 0.33333333rem;
+  position: relative;
+}
+.nav-center-right i {
+  color: gray;
+  font-size: 0.1rem;
+}
+.nav-center-right i:hover {
+  color: #ff0157;
+}
+#dropdown li {
+  width: 0.83333333rem;
+  height: 0.33333333rem;
+  /* background-color: green; */
+  float: left;
+  display: block;
+  text-align: center;
+}
+/* 我的美团 */
+#dropdown li:nth-child(1) {
+  width: 1rem;
+}
+#dropdown li:nth-child(1) dl {
+  width: 1rem;
+  border: 1px solid #ccc;
+  border-top: none;
+  margin-left: -1px;
+  background-color: #fff;
+  position: absolute;
+  z-index: 2;
+}
+#dropdown li:nth-child(1) dl a:hover {
+  border: none;
+  color: #ff0157;
+}
+/* 商家中心 */
+#dropdown li:nth-child(3) {
+  width: 1rem;
+  padding: 0px 0.08333333rem;
+}
+#dropdown li:nth-child(3) dl {
+  border: 1px solid #ccc;
+  border-top: none;
+  width: 1.17rem;
+  margin-left: -0.09166667rem;
+  background-color: #fff;
+  position: absolute;
+  z-index: 2;
+}
+#dropdown li:nth-child(3) dl a:hover {
+  border: none;
+  color: #ff0157;
+}
+/* 美团规则 */
+#dropdown li:nth-child(4) {
+  width: 1rem;
+}
+#dropdown li:nth-child(4) dl {
+  border: 1px solid #ccc;
+  border-top: none;
+  margin-left: -1px;
+  width: 1rem;
+  background-color: #fff;
+  position: absolute;
+  z-index: 2;
+}
+#dropdown li:nth-child(4) dl a:hover {
+  border: none;
+  color: #ff0157;
+}
+/* 网站导航*/
+#dropdown li:nth-child(5) {
+  width: 2.15rem;
+  height: 0.33333333rem;
+}
+#dropdown li:nth-child(5) dl {
+  width: 9.83333333rem;
+  height: 2.25rem;
+  position: absolute;
+  right: 0px;
+  border: 1px solid #ccc;
+  border-top: none;
+  background-color: #fff;
+  z-index: 20;
+}
+#dropdown li:nth-child(5) dl dd:nth-child(1) {
+  width: 2.08333333rem;
+  height: 2.25rem;
+  /* border:1px solid red; */
+  display: block;
+  position: absolute;
+  left: 0.08333333rem;
+  top: 0.25rem;
+  border: none;
+}
+#dropdown li:nth-child(5) dl dd:nth-child(1) span {
+  margin-left: 0.33333333rem;
+}
+#dropdown li:nth-child(5) dl dd:nth-child(2) {
+  width: 1.41666667rem;
+  height: 2.25rem;
+  /* border:1rem / @font) solid red; */
+  display: block;
+  position: absolute;
+  left: 2.33333333rem;
+  top: 0.25rem;
+  border: none;
+}
+#dropdown li:nth-child(5) dl dd:nth-child(3) {
+  width: 1.41666667rem;
+  height: 2.25rem;
+  /* border:1rem / @font) solid red; */
+  display: block;
+  position: absolute;
+  left: 4.08333333rem;
+  top: 0.25rem;
+  text-align: center;
+  border: none;
+}
+#dropdown li:nth-child(5) dl dd:nth-child(4) {
+  width: 4.58333333rem;
+  height: 2.25rem;
+  /* border:1rem / @font) solid red; */
+  display: block;
+  position: absolute;
+  left: 5.25rem;
+  top: 0.25rem;
+  border: none;
+}
+#dropdown li:nth-child(5) dl dd:nth-child(4) span {
+  width: 0.66666667rem;
+  height: 0.16666667rem;
+  float: left;
+  line-height: 0.16666667rem;
+  display: block;
+  margin-top: 0.16666667rem;
+}
+#dropdown li:nth-child(5) dl dd span {
+  width: 1.33333333rem;
+  height: 0.16666667rem;
+  float: left;
+  line-height: 0.16666667rem;
+  display: block;
+  margin-top: 0.08333333rem;
+}
+#dropdown li:nth-child(5) dl dd span i {
+  width: 0.41666667rem;
+  height: 0.41666667rem;
+  margin-top: 0.025rem 0;
+  margin-left: 0.83333333rem;
+  font-size: 0.29166667rem;
+}
+#dropdown .show dd div {
+  color: #999;
+}
+#dropdown .show dd span {
+  color: #999;
+}
+#dropdown .show dd div:hover {
+  cursor: pointer;
+  color: #ff0157;
+}
+#dropdown .show dd span i:hover {
+  cursor: pointer;
+  color: #ff0157;
+}
+#dropdown .show dd span:hover {
+  cursor: pointer;
+  color: #ff0157;
+}
+/* 下拉框隐藏 */
+.displaynone {
+  display: none;
+}
+#dropdown .show:hover {
+  border-left: 1px solid #ccc;
+  border-right: 1px solid #ccc;
+  color: #ff0157;
+  margin-left: -1px;
+  margin-right: -1px;
+}
+#dropdown .show a:hover {
+  color: #ff0157;
+}
+#dropdown .show .displaynone {
+  display: block;
+}
+.icon-mug1 {
+  color: #4dff03;
+}
+.icon-bag {
+  color: #00d0ff;
+}
+.icon-lamp {
+  color: #ffbc00;
+}
+.icon-gift {
+  color: #ff3c7b;
+}
+.icon-key {
+  color: #03a9f4;
+}
+@media screen and (max-width: 767px) {
+  html {
+    font-size: 76.7px;
+  }
+}
+@media screen and (min-width: 768px) {
+  html {
+    font-size: 76.8px;
+  }
+}
+@media screen and (min-width: 992px) {
+  html {
+    font-size: 99.2px;
+  }
+}
+@media screen and (min-width: 1200px) {
+  html {
+    font-size: 120px;
+  }
+}

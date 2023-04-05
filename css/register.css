@@ -1,0 +1,257 @@
+body {
+  background-color: #f4f4f4;
+}
+.header {
+  width: 100%;
+  height: 1.16666667rem;
+  border-bottom: 1px solid #ddd;
+  margin-bottom: 0.25rem;
+}
+.header .header-box {
+  width: 100%;
+  position: relative;
+  height: 1.16666667rem;
+  background-color: #dfdada;
+}
+.logo {
+  position: absolute;
+  left: 0.41666667rem;
+  top: 0.08333333rem;
+  width: 1.83333333rem;
+  height: 0.95833333rem;
+  background: url(../images/jaguar.png) no-repeat;
+  background-size: 70%;
+  background-position: center;
+  transform: translateY(-0.125rem);
+  /* justify-items: center; */
+}
+.search_logo_block {
+  position: absolute;
+  bottom: -0.04166667rem;
+  left: 0.625rem;
+  width: 1.04166667rem;
+  height: 0.33333333rem;
+}
+.nav-center-right {
+  width: 1.25rem;
+  height: 0.16666667rem;
+  line-height: 0.16666667rem;
+  color: #666;
+  margin-top: 0.5rem;
+  float: right;
+}
+.nav-center-right a {
+  width: 0.72rem;
+  height: 0.16666667rem;
+  background-color: #ff0157;
+  color: #ccc;
+  display: inline-block;
+  text-align: center;
+}
+.register {
+  width: 100%;
+  height: 4.58333333rem;
+  background-color: #F7F8F8;
+}
+.register-center {
+  width: 9.91666667rem;
+  height: 4.45833333rem;
+  background-color: #fff;
+  margin: 0 auto;
+  border: 0.00833333rem solid #ccc;
+}
+.register-center-form {
+  width: 5.04166667rem;
+  height: 4rem;
+  /* background-color: red; */
+  /* border:1rem / @font) solid #ccc; */
+  margin-left: 0.41666667rem;
+  float: left;
+  position: relative;
+}
+.register-center-form input {
+  width: 2.16666667rem;
+  height: 0.3rem;
+  border: 0.00833333rem solid #aaa;
+  margin: 0.16666667rem 0.08333333rem;
+  box-shadow: #ccdbe8 3px 3px 6px 0px inset, rgba(255, 255, 255, 0.5) -3px -3px 6px 1px inset;
+}
+.register-center-form #passrepeat {
+  width: 2.16666667rem;
+  height: 0.3rem;
+  border: 0.00833333rem solid #aaa;
+  margin: 0.25rem 0.04166667rem;
+}
+.register-center-form button {
+  width: 180px;
+  height: 0.16666667rem;
+  border: 0.00833333rem solid #aaa;
+  margin-left: 1.04166667rem;
+  cursor: pointer;
+}
+#frmContact {
+  margin-bottom: 0.16666667rem;
+}
+.buttonsubmit {
+  margin-bottom: 0rem;
+  width: 1.875rem;
+  height: 0.33333333rem;
+  margin-left: 0.79166667rem;
+  border: none;
+  outline: none;
+  color: black;
+  background: white;
+  cursor: pointer;
+  position: relative;
+  z-index: 0;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+}
+.buttonsubmit:before {
+  content: "";
+  background: linear-gradient(45deg, #ff0000, #ff7300, #fffb00, #48ff00, #00ffd5, #002bff, #7a00ff, #ff00c8, #ff0000);
+  position: absolute;
+  top: -2px;
+  left: -2px;
+  background-size: 400%;
+  z-index: -1;
+  filter: blur(5px);
+  -webkit-filter: blur(5px);
+  width: calc(100% + 4px);
+  height: calc(100% + 4px);
+  animation: glowing-buttonsubmit 20s linear infinite;
+  transition: opacity 0.3s ease-in-out;
+}
+.buttonsubmit:after {
+  z-index: -1;
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background: white;
+  left: 0;
+  top: 0;
+}
+.register-center-img {
+  width: 4.45833333rem;
+  height: 4rem;
+  /* background-color: blue; */
+  /* border:1rem / @font) solid #ccc; */
+  float: left;
+  background-image: url("../images/register.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+.register-center-form a {
+  color: #ff0157;
+  text-decoration: none;
+  font-size: 0.10833333rem;
+  padding-left: 0.65rem;
+}
+.register-center-form a:last-child {
+  padding-left: 0px;
+}
+/*字体图标的颜色改变*/
+.icon-times-circle {
+  color: #ff0157;
+}
+.icon-check-circle {
+  color: green;
+}
+/*禁用谷歌的默认选择效果*/
+input,
+textarea:focus {
+  outline: none;
+}
+/*控制提示文字的显示隐藏*/
+.display-none {
+  display: none;
+}
+.display-block {
+  display: block;
+}
+.display-inline {
+  display: inline-block;
+  width: 1.5rem;
+}
+.pass-wrap {
+  position: absolute;
+  top: 2.08333333rem;
+  left: 0.79166667rem;
+  margin: 0 auto;
+  width: 2.5rem;
+  height: 0.3rem;
+}
+.pass-wrap em {
+  font-size: 0.13333333rem;
+  padding-left: 0.04166667rem;
+}
+.srengthLv0 {
+  height: 0.0125rem;
+  width: 2.04166667rem;
+  border: 0.00833333rem solid #ccc;
+  margin-left: 0.04166667rem;
+}
+.srengthLv1 {
+  height: 0.0125rem;
+  width: 0.67916667rem;
+  padding: 0.01666667rem;
+  margin-left: 0.04166667rem;
+  background: #f00;
+  filter: drop-shadow(0 0 0px #f00) drop-shadow(0 0 5px #f00) drop-shadow(0 0 10px #f00);
+}
+.srengthLv2 {
+  background: #FFA500;
+  height: 0.0125rem;
+  width: 1.35833333rem;
+  padding: 0.01666667rem;
+  margin-left: 0.04166667rem;
+  filter: drop-shadow(0 0 0px #FFA500) drop-shadow(0 0 5px #FFA500) drop-shadow(0 0 10px #FFA500);
+}
+.srengthLv3 {
+  background: #0f0;
+  filter: drop-shadow(0 0 0px #0f0) drop-shadow(0 0 10px #0f0) drop-shadow(0 0 20px #0f0);
+  height: 0.0125rem;
+  width: 2.04166667rem;
+  padding: 0.01666667rem;
+  margin-left: 0.04166667rem;
+}
+#frmContact:hover {
+  cursor: pointer;
+}
+input,
+textarea:focus {
+  outline: none;
+}
+@keyframes glowing-buttonsubmit {
+  0% {
+    background-position: 0 0;
+  }
+  50% {
+    background-position: 400% 0;
+  }
+  100% {
+    background-position: 0 0;
+  }
+}
+@media screen and (max-width: 767px) {
+  html {
+    font-size: 76.7px;
+  }
+}
+@media screen and (min-width: 768px) {
+  html {
+    font-size: 76.8px;
+  }
+}
+@media screen and (min-width: 992px) {
+  html {
+    font-size: 99.2px;
+  }
+}
+@media screen and (min-width: 1200px) {
+  html {
+    font-size: 120px;
+  }
+}

@@ -1,0 +1,254 @@
+@font: 120px;
+
+.nav{
+	width:100%;
+	height:(40rem / @font);
+	/*background:red;*/
+	
+}
+.nav-center{
+	width:100%;
+	height:(40rem / @font);
+	/*background:green;*/
+	margin:0 auto;
+}
+/*导航条左侧 位置登录注册*/
+
+/*导航条右侧 我的美团 手机APP 商家中心 美团规则 网站导航*/
+.nav-center-right{	
+	width: (740rem / @font);
+	height:(40rem / @font);
+	
+	float:right;
+	
+	
+	line-height:(40rem / @font);
+	position: relative;
+	
+}
+.nav-center-right i{
+	color:gray;
+	font-size: (12rem / @font);
+}
+.nav-center-right  i:hover{
+	color: #ff0157;
+}
+#dropdown  li {	
+	width:(100rem / @font);
+	height:(40rem / @font);
+	/* background-color: green; */
+	float: left;
+	display: block;
+	text-align: center;
+}
+/* 我的美团 */
+#dropdown  li:nth-child(1){
+	width:(120rem / @font);
+}
+
+#dropdown  li:nth-child(1) dl{
+	width:(120rem / @font);
+	border: 1px solid #ccc;
+	border-top: none;
+	margin-left: -1px;
+	background-color: #fff;
+	position: absolute;
+	z-index: 2;
+}
+#dropdown  li:nth-child(1) dl a:hover{	
+	border:none;
+	color:#ff0157;
+}
+/* 商家中心 */
+#dropdown  li:nth-child(3){
+	width:(120rem / @font);
+	padding: 0px (10rem / @font);
+}
+
+#dropdown  li:nth-child(3) dl{
+	border: 1px solid #ccc;
+	border-top: none;
+	width: (140.4rem / @font);
+	margin-left: (-11rem / @font);
+	background-color: #fff;
+	position: absolute;
+	z-index: 2;
+}
+#dropdown  li:nth-child(3) dl a:hover{	
+	border:none;
+	color:#ff0157;
+}
+/* 美团规则 */
+#dropdown  li:nth-child(4){
+	width:(120rem / @font);
+	
+}
+#dropdown  li:nth-child(4) dl{
+	border: 1px solid #ccc;
+	border-top: none;
+	margin-left: -1px;
+	width: (120rem / @font);
+	background-color: #fff;
+	position: absolute;
+	z-index: 2;
+}
+#dropdown  li:nth-child(4) dl a:hover{	
+	border:none;
+	color:#ff0157;
+}
+/* 网站导航*/
+#dropdown  li:nth-child(5){
+	width:(258rem / @font);
+	height:(40rem / @font);
+}
+#dropdown  li:nth-child(5) dl{
+	width:(1180rem / @font);
+	height:(270rem / @font);
+	position:absolute;
+	right:0px;
+	border:1px solid #ccc;
+	border-top: none;
+	background-color: #fff;
+	z-index: 20;
+}
+#dropdown  li:nth-child(5) dl dd:nth-child(1){
+	width:(250rem / @font);
+	height:(270rem / @font);
+	/* border:1px solid red; */
+	display: block;
+	position: absolute;
+	left:(10rem / @font);
+	top:(30rem / @font);
+	border:none;
+}
+
+#dropdown  li:nth-child(5) dl dd:nth-child(1) span{
+	margin-left: (40rem / @font);
+}
+#dropdown  li:nth-child(5) dl dd:nth-child(2){
+	width:(170rem / @font);
+	height:(270rem / @font);
+	/* border:1rem / @font) solid red; */
+	display: block;
+	position: absolute;
+	left:(280rem / @font);
+	top:(30rem / @font);
+	border:none;
+}
+#dropdown  li:nth-child(5) dl dd:nth-child(3){
+	width:(170rem / @font);
+	height:(270rem / @font);
+	/* border:1rem / @font) solid red; */
+	display: block;
+	position: absolute;
+	left:(490rem / @font);
+	top:(30rem / @font);
+	text-align: center;
+	border:none;
+}
+#dropdown  li:nth-child(5) dl dd:nth-child(4){
+	width:(550rem / @font);
+	height:(270rem / @font);
+	/* border:1rem / @font) solid red; */
+	display: block;
+	position: absolute;
+	left:(630rem / @font);
+	top:(30rem / @font);
+	border:none;
+}
+#dropdown  li:nth-child(5) dl dd:nth-child(4) span{
+	width:(80rem / @font);
+	height:(20rem / @font);
+	float: left;
+	line-height:( 20rem / @font);
+	display: block;
+	margin-top: (20rem / @font);
+}
+#dropdown  li:nth-child(5) dl dd span{
+	width:(160rem / @font);
+	height:(20rem / @font);
+	float: left;
+	line-height: (20rem / @font);
+	display: block;
+	margin-top: (10rem / @font);
+	}
+#dropdown  li:nth-child(5) dl dd span i{
+	width:( 50rem / @font);
+	height:(50rem / @font);
+	margin-top:(3rem / @font) 0;
+	margin-left:(100rem / @font);
+	font-size:( 35rem / @font);
+	
+	
+}
+#dropdown  .show dd div{
+	color:#999;
+}
+#dropdown  .show dd span{
+	color: #999;
+}
+#dropdown  .show dd div:hover{
+	cursor: pointer;
+	color: #ff0157;
+}
+#dropdown  .show dd span i:hover{
+	cursor: pointer;
+	color: #ff0157;
+}
+#dropdown  .show dd span:hover{
+	cursor: pointer;
+	color: #ff0157;
+}
+/* 下拉框隐藏 */
+.displaynone{
+	display: none;
+}
+#dropdown .show:hover{
+	border-left: 1px solid #ccc;
+	border-right: 1px solid #ccc;
+	color:#ff0157;
+	margin-left: -1px;
+	margin-right: -1px;
+}
+#dropdown .show a:hover{
+	color:#ff0157;
+}
+#dropdown .show .displaynone{
+	display: block;
+}
+.icon-mug1{
+	color: #4dff03;
+  }
+  .icon-bag{
+	color: #00d0ff;
+  }
+  .icon-lamp{
+	color: #ffbc00;
+  }
+  .icon-gift{
+	color: #ff3c7b;
+  }
+  .icon-key{
+	color: #03a9f4;
+  }
+@media screen and (max-width:767px){
+    html{
+        font-size: (767px / 10);
+    }
+}
+@media screen and (min-width:768px) {
+    html{
+        font-size: (768px / 10);
+    }
+
+}
+@media screen and (min-width:992px){
+    html{
+        font-size: (992px / 10);
+    }
+}
+@media screen and (min-width:1200px){
+    html{
+        font-size: (1200px / 10);
+    }
+}
