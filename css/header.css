@@ -9,8 +9,7 @@
   /*background:green;*/
   margin: 0 auto;
 }
-/*导航条左侧 位置登录注册*/
-/*导航条右侧 我的美团 手机APP 商家中心 美团规则 网站导航*/
+
 .nav-center-right {
   width: 6.16666667rem;
   height: 0.33333333rem;
@@ -33,7 +32,7 @@
   display: block;
   text-align: center;
 }
-/* 我的美团 */
+
 #dropdown li:nth-child(1) {
   width: 1rem;
 }
@@ -50,7 +49,7 @@
   border: none;
   color: #ff0157;
 }
-/* 商家中心 */
+
 #dropdown li:nth-child(3) {
   width: 1rem;
   padding: 0px 0.08333333rem;
@@ -68,7 +67,7 @@
   border: none;
   color: #ff0157;
 }
-/* 美团规则 */
+
 #dropdown li:nth-child(4) {
   width: 1rem;
 }
@@ -185,7 +184,7 @@
   cursor: pointer;
   color: #ff0157;
 }
-/* 下拉框隐藏 */
+
 .displaynone {
   display: none;
 }
