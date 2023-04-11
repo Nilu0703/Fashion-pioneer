@@ -187,9 +187,7 @@ let spa=-1;
 moveUl.style.width=moveLis[0].offsetWidth*moveLis.length+"px";
 function move(){
     if(moveUl.offsetLeft<-moveUl.offsetWidth/3){
-        // 向左走时，判断图片是否走完（这里本来是5张图片，加上
-// 后面追加的5张相同的，共有10张，所以需要用u1的总宽度来除
-// 以2进行判断），走完时重新开始！
+     
 moveUl.style.left="0";
     }else{
         moveUl.style.left=moveUl.offsetLeft+spa+"px ";
